@@ -1,0 +1,63 @@
+.containerProyectos{
+    background-color: #000;
+}
+
+
+.tituloProyectos{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    margin: 30px;
+}
+
+.containerCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.cardProyect{
+    width: 320px;
+    /* height: 420px; */
+    border-radius: 20px;
+    background-color: #333;
+    margin: 10px;
+}
+
+
+.imgCard img{
+    width: 100%;
+    border-radius: 10px;
+}
+.infoCard{
+    text-align: center;
+    color:#fff;
+    padding: 5px;
+}
+
+.containerBtn{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.btnCard{
+    border-radius: 7px;
+    background-color: #555;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.iconoBtn{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.linkBtn{
+    text-decoration: none;
+}

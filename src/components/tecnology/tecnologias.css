@@ -1,0 +1,28 @@
+.containerTecnologias{
+    background-color: #000;
+    height: 100vh;
+
+    
+}
+.tituloTech{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    margin: 30px;
+}
+.separacion{
+    border-top: 3px solid #222;
+    width: 50%;
+    margin: 0 auto;
+}
+.containerLogos{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logoImg{
+    width: 100px;
+    margin: 10px;
+}

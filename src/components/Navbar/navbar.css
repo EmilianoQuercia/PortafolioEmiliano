@@ -1,0 +1,18 @@
+.navPrincipal{
+    position: sticky;  
+    top:0;
+}
+
+.colorNav{
+    background-color: #111;
+}
+
+.containerMenu{
+   
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    color: #fff;
+    margin: 0 15px;
+}
