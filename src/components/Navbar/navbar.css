@@ -16,3 +16,7 @@
     color: #fff;
     margin: 0 15px;
 }
+
+.nav-link:focus, .nav-link:hover {
+    color: #666;
+}

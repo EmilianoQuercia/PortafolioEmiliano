@@ -11,8 +11,6 @@ const AppRoutes = () => {
             <NavbarIndex/>
             <Routes>
                 <Route path='/' element={<ContainerMain/>}/>
-                <Route path='#home' element={<Home/>}/>
-                <Route path='#tech' element={<Tecnologias/>}/>
             </Routes>
         </div>
     );

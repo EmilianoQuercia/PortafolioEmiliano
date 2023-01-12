@@ -4,8 +4,11 @@ import './proyectos.css';
 const Proyectos = () => {
     return (
         <div className='containerProyectos'>
-            <div className="separacion"></div>
-            <h1 className='tituloProyectos'>PROYECTOS</h1>
+            <div id='proyect' className="separacion"></div>
+            <br />
+            <br />
+            <br />
+            <h1  className='tituloProyectos'>PROYECTOS</h1>
             <div className='containerCard'>
                 <div className='cardProyect'>
                     <div className='imgCard'>

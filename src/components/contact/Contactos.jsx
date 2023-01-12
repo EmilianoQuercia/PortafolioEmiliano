@@ -18,7 +18,10 @@ const Contactos = () => {
     return (
         <div className='containerContactos'>
 
-            <div className="separacion"></div>
+            <div id='contact' className="separacion"></div>
+            <br />
+            <br />
+            <br />
             <h1 className='tituloTech'>CONTACTOS</h1>
             <div style={{width:"80%",margin:"0 auto", marginTop:"15px"}}>
                 <div className='containerForm'>

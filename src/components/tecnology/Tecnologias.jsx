@@ -14,7 +14,10 @@ const Tecnologias = () => {
     
     return (
         <div className='containerTecnologias'>
-            <div className='separacion'></div>
+            <div id='tech' className='separacion'></div>
+            <br />
+            <br />
+            <br />
             <h1 className='tituloTech'>HABILIDADES</h1>
             <div className='containerLogos'>
             <div data-aos="flip-left"><img className='logoImg' src="./assets/img/logoHtml.png" alt="" /></div>
