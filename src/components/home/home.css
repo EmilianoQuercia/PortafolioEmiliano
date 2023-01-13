@@ -92,7 +92,7 @@
 }
 
 .interruptor label input:checked ~ .imagen{
-    background-image: url('./assets/img/emi.jpg');
+    background-image: url('../assets/img/emi.jpg');
 }
 .containerNombre{
     width: 50%;
