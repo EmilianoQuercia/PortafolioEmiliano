@@ -14,6 +14,8 @@ const Contactos = () => {
          }, (error)=> {
             console.log('FAILED...', error);
          });
+         
+         e.target.reset()
     }
     return (
         <div className='containerContactos'>
