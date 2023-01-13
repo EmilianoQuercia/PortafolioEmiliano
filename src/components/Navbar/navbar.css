@@ -1,6 +1,7 @@
 .navPrincipal{
     position: sticky;  
     top:0;
+    z-index: 3;
 }
 
 .colorNav{
@@ -19,4 +20,19 @@
 
 .nav-link:focus, .nav-link:hover {
     color: #666;
+}
+
+.navbar-nav .nav-link.active{
+    color: #666;
+}
+
+.navbar-toggler{
+    background-color: #666;
+    color: #666;
+}
+
+@media (max-width: 992px){
+    .containerMenu{
+        flex-direction: column;
+    }
 }

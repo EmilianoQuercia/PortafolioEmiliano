@@ -12,8 +12,7 @@
     align-items: center;
     height: 100%;
     justify-content: space-evenly;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .containerImg{
@@ -26,7 +25,7 @@
 
 .avatar{
     border: 3px solid #333;
-    width: 70%;
+    width: 60%;
     border-radius: 50%;
   
     display: flex;
@@ -102,7 +101,8 @@
 }
 .conoceme{
     filter: drop-shadow(1px 2px 10px #ffee06);
-    width: 50%;
+    width: 40%;
+    margin-bottom: 5px;
 }
 .infoNombre{
     color:#fff;
@@ -135,4 +135,18 @@
   }
 .btnCV:hover {
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 20px 4px #3498db;
+  }
+
+  @media (max-width: 768px) {
+    .containerHome{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .avatar{
+        width: 80%;
+    }
+    .conoceme{
+        width: 100%;
+    }
   }

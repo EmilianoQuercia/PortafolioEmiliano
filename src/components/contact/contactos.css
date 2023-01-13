@@ -14,3 +14,9 @@
     border-radius: 5px;
     color: #aaa;
 }
+
+@media (max-width: 576px){
+   .containerForm{
+    width: 90%;
+   }
+}

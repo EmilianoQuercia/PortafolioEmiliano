@@ -11,6 +11,7 @@ const Home = () =>{
             <div className="containerHome">
                 <div className="containerImg">
                     
+                    <img className="conoceme" src="./assets/img/conoceme.png" alt="" />
                     <div className="interruptor">
                         <label htmlFor="llave">
                             <input type="checkbox" onChange={(e)=>setCheck(e.target.checked)} name="" id="llave" />
@@ -35,7 +36,7 @@ const Home = () =>{
                            <a href="http://drive.google.com/file/d/1LR_hJVU3Ky1Op2wLpMy5MGk5VEadQoIk/view?usp=sharing'" target="_blank" rel="noopener noreferrer"><button className="btnCV" >DESCARGAR CV</button> </a>
                         </div>
                         :
-                        <img className="conoceme" src="./assets/img/conoceme.png" alt="" />
+                        <div></div>
                     }
                 </div>
             </div>

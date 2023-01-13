@@ -26,3 +26,12 @@
     width: 100px;
     margin: 10px;
 }
+
+@media (max-width: 576px){
+    .tituloTech{
+        font-size: 32px;
+    }
+    .logoImg{
+        width: 60px;
+    }
+}

@@ -9,7 +9,7 @@ const Proyectos = () => {
             <br />
             <br />
             <h1  className='tituloProyectos'>PROYECTOS</h1>
-            <div className='containerCard'>
+            <div className='containerCard '>
                 <div className='cardProyect'>
                     <div className='imgCard'>
                         <img src="./assets/img/portadaAromaticas.jpg" alt="" />

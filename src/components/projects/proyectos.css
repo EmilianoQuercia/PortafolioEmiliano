@@ -15,15 +15,20 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
+   
 }
 
+
 .cardProyect{
-    width: 320px;
-    /* height: 420px; */
+    width: 320px;   
     border-radius: 20px;
     background-color: #333;
     margin: 10px;
+    transition: 300ms;
+}
+.cardProyect:hover{
+    transform: scale(105%);
+    
 }
 
 
@@ -62,4 +67,10 @@
 
 .linkBtn{
     text-decoration: none;
+}
+
+@media (max-width: 576px){
+    .tituloProyectos{
+        font-size: 32px;
+    }
 }
