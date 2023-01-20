@@ -1,0 +1,35 @@
+[
+    {
+        "img": "./assets/img/gestorHotel.jpg",
+        "title": "Gestor Hotel",
+        "description": "Es una app que permite manejar de forma sencilla la informacion intenrna de un Hotel",
+        "tech": " HTML, CSS, TAILWIND, JAVASCRIPT, REACT",
+        "linkGithub": "https://github.com/EmilianoQuercia/Gestor-Huespedes-Hotel",
+        "linkWeb":"https://gestor-huespedes-hotel.vercel.app/"
+    },
+    {
+        "img": "./assets/img/portadaAromaticas.jpg",
+        "title": "App Aromaticas",
+        "description": "Es una web para introducirse en el mundo de las hierbas aromáticas. Primer trabajo en equipo",
+        "tech": " HTML, CSS, BOOSTRAPT, JAVASCRIPT, REACT",
+        "linkGithub": "https://github.com/ProjectsDevLatam/AromaticsApp",
+        "linkWeb":"https://aromatics.netlify.app/"
+    },
+    {
+        "img": "./assets/img/portadaMentalmente.jpg",
+        "title": "Mentalmente",
+        "description": "Es un juego de Preguntas y respuestas con dos modalidades de Juego, tabla de puntaje final, musica y sonido.",
+        "tech": "HTML, CSS, JAVASCRIPT, REACT",
+        "linkGithub": "https://github.com/EmilianoQuercia/Mentalmente/tree/main/Mentalmente",
+        "linkWeb":"https://mentalmente.vercel.app/"
+    },
+    {
+        "img": "./assets/img/portadaBeat.jpg",
+        "title": "Beat Sound",
+        "description": "Este fue la primer pagina que hice, un sitio para el alquiler de equipos y organizacion de eventos",
+        "tech": "HTML, CSS, BOOSTRAPS, SASS",
+        "linkGithub": "https://github.com/EmilianoQuercia/BeatSound",
+        "linkWeb":"https://emilianoquercia.github.io/BeatSound/"
+    }
+ 
+]
