@@ -7,7 +7,7 @@ const Proyectos =  () => {
 
     const proyectos = async()=>{
 
-        const response = await fetch('../src/data/projects.json')
+        const response = await fetch('../../src/data/projects.json')
         const data = await response.json()
         setDb(data)
     }
